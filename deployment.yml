@@ -4,7 +4,7 @@ metadata:
   name: nginx-deployment
   namespace: argocd-demo-ns
 spec:
-  replicas: 30
+  replicas: 10
   selector:
     matchLabels:
       app: nginx
